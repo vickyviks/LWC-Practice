@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+        <template lwc:if={contacts.data}>
+            <lightning-datatable
+                key-field="Id"
+                columns={columns}
+                data={contacts.data}
+            >
+            </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>
