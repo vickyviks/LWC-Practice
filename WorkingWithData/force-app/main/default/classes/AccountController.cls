@@ -7,5 +7,6 @@ public with sharing class AccountController {
             WITH SECURITY_ENFORCED
             Order by Name
         ];
+        //throw new AuraHandledException('Forced Error');
     }  
 }
